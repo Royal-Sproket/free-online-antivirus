@@ -1,1 +1,6 @@
-
+.center {
+  display: flex;
+  justify-content: center;  /* horizontal */
+  align-items: center;      /* vertical */
+  height: 100vh;            /* full screen height */
+}
