@@ -4,3 +4,14 @@
   align-items: center;      /* vertical */
   height: 100vh;            /* full screen height */
 }
+h1 {
+  display: flex;
+  justify-content: center;  /* horizontal */
+}
+
+#openingHeader {
+  display: flex;
+  justify-content: center;  /* horizontal */
+  align-items: center;      /* vertical */
+  height: 25vh;            /* full screen height */
+}
