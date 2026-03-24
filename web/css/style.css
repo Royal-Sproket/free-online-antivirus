@@ -1,17 +1,75 @@
-.center {
-  display: flex;
-  justify-content: center;  /* horizontal */
-  align-items: center;      /* vertical */
-  height: 100vh;            /* full screen height */
-}
 h1 {
   display: flex;
   justify-content: center;  /* horizontal */
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* horizontal */
+
+  background-color: rgb(250, 250, 250);   /*light blue*/
+  
+  width: 75vw;        /* gives it size */
+  padding: 20px;       /* space inside the box */
+  margin: 20px auto;   /* space outside + center horizontally */
+
+  border: 2px solid rgb(200, 200, 200);  /* the box outline is a darker blue */
+  border-radius: 10px;      /* rounded corners */
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* shadow */
+}
+
+
+.default {} /* for if you want to use the default html */
+
+.center {
+  display: flex;
+  justify-content: center;  /* horizontal */
+}
+
+.file {                     /*<div>*/
+  display: flex;
+  justify-content: center;  /* horizontal */
+
+  background-color: rgb(240, 240, 250);   /*light blue*/
+  
+
+  width: 25vw;        /* gives it size */
+  padding: 20px;       /* space inside the box */
+  margin: 20px auto;   /* space outside + center horizontally */
+
+  border: 2px solid rgb(200, 200, 250);  /* the box outline is a darker blue */
+  border-radius: 10px;      /* rounded corners */
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* shadow */
+
+}
+
+
+#fileDrop {
+
+  display: flex;
+  justify-content: center;  /* horizontal */
+
+  background-color: rgb(240, 240, 250);   /*light blue*/
+  
+
+  width: 25vw;        /* gives it size */
+  hight: 25vw;
+  padding: 20px;       /* space inside the box */
+  margin: 20px auto;   /* space outside + center horizontally */
+
+  border: 2px dashed rgb(200, 200, 250);  /* the box outline is a darker blue */
+  border-radius: 10px;      /* rounded corners */
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* shadow */
+
 }
 
 #openingHeader {
   display: flex;
   justify-content: center;  /* horizontal */
   align-items: center;      /* vertical */
-  height: 25vh;            /* full screen height */
+  height: 25vh;            /* near top os screen */
 }
